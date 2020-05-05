@@ -4,7 +4,7 @@ int main(void)
 {
 	int num1, num2, subResult, mulResult;
 
-	scanf("%d %d", &num1, &num2);
+	scanf_s("%d %d", &num1, &num2);
 	subResult = num1 - num2;
 	mulResult = num1 * num2;
 

@@ -16,4 +16,6 @@ int main(void)
 		}
 		k++;
 	}
+
+	return 0;
 }

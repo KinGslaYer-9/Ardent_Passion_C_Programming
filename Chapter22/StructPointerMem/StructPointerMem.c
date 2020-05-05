@@ -19,6 +19,6 @@ int main(void)
 
 	struct circle ring = { rad, &cen };
 	printf("원의 반지름: %g \n", ring.radius);
-	printf("원의 중심 [%d, %d] \n", (ring.center)->xpos, (ring.center)->xpos);
+	printf("원의 중심 [%d, %d] \n", (ring.center)->xpos, (ring.center)->ypos);
 	return 0;
 }
